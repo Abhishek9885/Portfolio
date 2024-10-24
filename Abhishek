@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fitness Gym</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="container1">
+            <h1>Fitness Gym</h1>
+            </div>
+            <nav>
+                <ul>
+                    <div class="home3">
+                    <li><a href="#home">Home</a></li>
+                    </div>
+                    <div class="services2">
+                    <li><a href="#services">Services</a></li>
+                    </div>
+                    <div class="trainers2">
+                    <li><a href="#trainers">Trainers</a></li>
+                    </div>
+                    <div class="schedule2">
+                    <li><a href="#schedule">Schedule</a></li>
+                    </div>
+                    <div class="contact2">
+                    <li><a href="#contact">Contact</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Fitness Gym</h2>
+            <p>Your journey to a healthy life starts here! Join us today and reach your fitness goals with the best trainers and top-notch facilities.</p><br>
+            <a href="#contact" class="btn">Join Now</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container4">
+            <h1>Our Services</h1>
+            <div class="service-box">
+                <h3>Personal Training</h3>
+                <p>Work one-on-one with certified trainers for personalized fitness programs.</p>
+            </div>
+            <div class="service-box">
+                <h3>Group Classes</h3>
+                <p>Join our fun and energetic group classes, including Yoga, Zumba, and CrossFit.</p>
+            </div>
+            <div class="service-box">
+                <h3>Nutrition Plans</h3>
+                <p>Get expert advice on meal plans and supplements to complement your workout.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="trainers">
+        <div class="container5">
+            <h1>Meet Our Trainers</h1>
+            <div class="trainer-box">
+                <img src="trainer1.jpg" alt="Trainer 1">
+               <h3>John doe</h3>
+                <p>Certified Strength Trainer</p>
+            </div>
+            <div class="trainer-box">
+                <img src="trainer2.jpg" alt="Trainer 2">
+                <h3>Belly smith</h3>
+                <p>Yoga and Pilates Expert</p>
+            </div>
+            <div class="trainer-box">
+                <img src="trainer3.jpg" alt="Trainer 3">
+                <h3>Mike Brown</h3>
+                <p>CrossFit Coach</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <div class="container6">
+            <h1>Class Schedule</h1>
+            
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Class</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>9:00 AM</td>
+                    <td>Yoga</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>6:00 PM</td>
+                    <td>CrossFit</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>7:00 PM</td>
+                    <td>Zumba</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>6:00 PM</td>
+                    <td>Bodybuilding</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>8:00 AM</td>
+                    <td>Spinning</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: contact@fitnessgym.com</p>
+            <p>Phone: +1 234 567 890</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Fitness Gym. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+style.css:
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgb(55, 28, 228) ;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+.container1:hover{
+    background-color: rgb(20, 220, 120);
+}
+
+#home {
+    background-color: #efe9e9;
+    padding: 50px 20px;
+}
+.home3:hover{
+    background-color: crimson;
+}
+
+
+
+#home h2 {
+    margin-bottom: 20px;
+}
+
+#home .btn {
+    padding: 10px 20px;
+    background-color: #c82530;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.container4{
+    filter: drop-shadow(10px 10px 20px black);
+}
+
+#services .service-box {
+    display: inline-block;
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.services2:hover{
+    background-color: crimson;
+}
+
+#trainers .trainer-box {
+    display: inline-block;
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.trainers2:hover{
+    background-color: crimson;
+}
+
+#trainers img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.schedule2:hover{
+    background-color: crimson;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+
+
+.container5{
+    filter: drop-shadow(10px 10px 20px black);
+}
+#contact{
+    background-color: black;
+    color: white;
+
+}
+.contact2:hover{
+    background-color: crimson;
+}
+
+footer {
+    background-color: #35424a;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
